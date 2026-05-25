@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "VibeCheck",
+    "slug": "vibecheck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vibecheck.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#09090b"
+      },
+      "package": "com.vibecheck.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "vibecheck",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "41bc0448-42ac-4d4e-ac03-7d2e5886e3e4"
+      }
+    }
+  }
+}
